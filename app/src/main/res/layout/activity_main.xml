@@ -1,0 +1,57 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/call_camera"
+        android:layout_width="169dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginBottom="67dp"
+        android:text="打开相机"
+        android:textSize="32dp"
+        opencv:layout_constraintBottom_toTopOf="@+id/call_album"
+        opencv:layout_constraintEnd_toEndOf="parent"
+        opencv:layout_constraintStart_toStartOf="parent"
+        opencv:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/call_album"
+        android:layout_width="164dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="278dp"
+        android:text="打开相册"
+        android:textSize="32dp"
+        opencv:layout_constraintBottom_toBottomOf="parent"
+        opencv:layout_constraintEnd_toEndOf="parent"
+        opencv:layout_constraintStart_toStartOf="parent"
+        opencv:layout_constraintTop_toBottomOf="@+id/call_camera" />
+
+
+    <Button
+        android:id="@+id/information"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="5dp"
+        android:text="信息"
+        opencv:layout_constraintBottom_toBottomOf="parent"
+        opencv:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="812dp"
+        android:layout_height="909dp"
+        opencv:layout_constraintBottom_toBottomOf="parent"
+        opencv:layout_constraintEnd_toEndOf="parent"
+        opencv:layout_constraintHorizontal_bias="0.433"
+        opencv:layout_constraintStart_toStartOf="parent"
+        opencv:layout_constraintTop_toTopOf="parent"
+        opencv:layout_constraintVertical_bias="0.157"
+        opencv:srcCompat="@drawable/c" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

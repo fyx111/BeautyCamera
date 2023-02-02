@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">小范相机</string>
+    <string name="normal">正常</string>
+    <string name="invert">反相</string>
+    <string name="edge">描边</string>
+    <string name="sobel">梯度</string>
+    <string name="blur">模糊</string>
+    <string name="grey">灰白</string>
+    <string name="dilate">膨胀</string>
+    <string name="erode">腐蚀</string>
+    <string name="normal2">正常</string>
+    <string name="invert2">反相</string>
+    <string name="edge2">描边</string>
+    <string name="sobel2">梯度</string>
+    <string name="blur2">模糊</string>
+    <string name="grey2">灰白</string>
+    <string name="dilate2">膨胀</string>
+    <string name="erode2">腐蚀</string>
+</resources>

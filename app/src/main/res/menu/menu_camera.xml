@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/normal"
+        android:title="@string/normal" />
+    <item android:id="@+id/invert"
+        android:title="@string/invert" />
+    <item android:id="@+id/edge"
+        android:title="@string/edge" />
+    <item android:id="@+id/sobel"
+        android:title="@string/sobel" />
+    <item android:id="@+id/blur"
+        android:title="@string/blur" />
+    <item android:id="@+id/grey"
+        android:title="@string/grey" />
+    <item android:id="@+id/dilate"
+        android:title="@string/dilate" />
+    <item android:id="@+id/erode"
+        android:title="@string/erode" />
+</menu>
